@@ -24,7 +24,7 @@ namespace Es_Strutture_Dati_2
             }
             using(StreamWriter sw=new StreamWriter("duplica.txt", false, Encoding.UTF8))
             {
-                foreach(int s in numeri )
+                foreach(int s in numeri)
                 {
                     sw.WriteLine(s);
                 }
